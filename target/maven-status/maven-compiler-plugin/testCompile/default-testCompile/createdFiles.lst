@@ -1,0 +1,6 @@
+org\healthcare\CURAHealthCare\ErrorValidation.class
+org\healthcare\CURAHealthCare\BaseComponent\BaseTest.class
+org\healthcare\CURAHealthCare\CuraHealthCareServiceTest.class
+org\healthcare\CURAHealthCare\BaseComponent\Listeners.class
+org\healthcare\CURAHealthCare\BaseComponent\Retry.class
+org\healthcare\CURAHealthCare\BaseComponent\BaseTest$1.class

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-13T15:10:54Z" name="Suite" finished-at="2024-06-13T15:11:27Z" duration-ms="33161">
+    <groups>
+      <group name="verification">
+        <method signature="CuraHealthCareServiceTest.verifyHomepage(java.util.HashMap)[pri:0, instance:org.healthcare.CURAHealthCare.CuraHealthCareServiceTest@41d426b5]" name="verifyHomepage" class="org.healthcare.CURAHealthCare.CuraHealthCareServiceTest"/>
+        <method signature="CuraHealthCareServiceTest.checkProfile(java.util.HashMap)[pri:0, instance:org.healthcare.CURAHealthCare.CuraHealthCareServiceTest@41d426b5]" name="checkProfile" class="org.healthcare.CURAHealthCare.CuraHealthCareServiceTest"/>
+        <method signature="ErrorValidation.invalidDateField(java.util.HashMap)[pri:0, instance:org.healthcare.CURAHealthCare.ErrorValidation@2da59753]" name="invalidDateField" class="org.healthcare.CURAHealthCare.ErrorValidation"/>
+        <method signature="ErrorValidation.verifyLoginError(java.util.HashMap)[pri:0, instance:org.healthcare.CURAHealthCare.ErrorValidation@2da59753]" name="verifyLoginError" class="org.healthcare.CURAHealthCare.ErrorValidation"/>
+      </group> <!-- verification -->
+    </groups>
+    <test started-at="2024-06-13T15:10:54Z" name="ErrorValidationTest" finished-at="2024-06-13T15:11:19Z" duration-ms="24711">
+      <class name="org.healthcare.CURAHealthCare.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.healthcare.CURAHealthCare.ErrorValidation@2da59753]" started-at="2024-06-13T15:10:55Z" name="launchApplication" finished-at="2024-06-13T15:11:01Z" duration-ms="6398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="invalidDateField(java.util.HashMap)[pri:0, instance:org.healthcare.CURAHealthCare.ErrorValidation@2da59753]" started-at="2024-06-13T15:11:01Z" name="invalidDateField" data-provider="getInvalidDateData" finished-at="2024-06-13T15:11:03Z" duration-ms="2216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, username=John Doe}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDateField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.healthcare.CURAHealthCare.ErrorValidation@2da59753]" started-at="2024-06-13T15:11:03Z" name="tearDown" finished-at="2024-06-13T15:11:04Z" duration-ms="1167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.healthcare.CURAHealthCare.ErrorValidation@2da59753]" started-at="2024-06-13T15:11:04Z" name="launchApplication" finished-at="2024-06-13T15:11:09Z" duration-ms="4465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyLoginError(java.util.HashMap)[pri:0, instance:org.healthcare.CURAHealthCare.ErrorValidation@2da59753]" started-at="2024-06-13T15:11:09Z" name="verifyLoginError" data-provider="getErrorValidationData" finished-at="2024-06-13T15:11:19Z" duration-ms="10077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, username=John Do}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.healthcare.CURAHealthCare.ErrorValidation@2da59753]" started-at="2024-06-13T15:11:19Z" name="tearDown" finished-at="2024-06-13T15:11:19Z" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.healthcare.CURAHealthCare.ErrorValidation -->
+    </test> <!-- ErrorValidationTest -->
+    <test started-at="2024-06-13T15:10:54Z" name="StandaloneTest" finished-at="2024-06-13T15:11:27Z" duration-ms="33161">
+      <class name="org.healthcare.CURAHealthCare.CuraHealthCareServiceTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.healthcare.CURAHealthCare.CuraHealthCareServiceTest@41d426b5]" started-at="2024-06-13T15:10:55Z" name="launchApplication" finished-at="2024-06-13T15:10:59Z" duration-ms="4726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyHomepage(java.util.HashMap)[pri:0, instance:org.healthcare.CURAHealthCare.CuraHealthCareServiceTest@41d426b5]" started-at="2024-06-13T15:10:59Z" name="verifyHomepage" data-provider="getData" finished-at="2024-06-13T15:11:02Z" duration-ms="2356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{givenDate=10/07/2024, givenComment=Booking appointment for Health checkup, apptStatus=Appointment Confirmation, menuItem3=Profile, menuItem2=History, menuItem5=Login, menuItem4=Logout, profilePage=Under construction., password=ThisIsNotAPassword, pageHeading=Login, month=July 2024, menuItem1=Home, option1=Hongkong CURA Healthcare Center, healthcareProg=Medicaid, username=John Doe, HomePageHeading=CURA Healthcare Service}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.healthcare.CURAHealthCare.CuraHealthCareServiceTest@41d426b5]" started-at="2024-06-13T15:11:02Z" name="tearDown" finished-at="2024-06-13T15:11:02Z" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.healthcare.CURAHealthCare.CuraHealthCareServiceTest@41d426b5]" started-at="2024-06-13T15:11:02Z" name="launchApplication" finished-at="2024-06-13T15:11:07Z" duration-ms="5321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkProfile(java.util.HashMap)[pri:0, instance:org.healthcare.CURAHealthCare.CuraHealthCareServiceTest@41d426b5]" started-at="2024-06-13T15:11:07Z" name="checkProfile" data-provider="getData" finished-at="2024-06-13T15:11:13Z" duration-ms="5793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{givenDate=10/07/2024, givenComment=Booking appointment for Health checkup, apptStatus=Appointment Confirmation, menuItem3=Profile, menuItem2=History, menuItem5=Login, menuItem4=Logout, profilePage=Under construction., password=ThisIsNotAPassword, pageHeading=Login, month=July 2024, menuItem1=Home, option1=Hongkong CURA Healthcare Center, healthcareProg=Medicaid, username=John Doe, HomePageHeading=CURA Healthcare Service}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProfile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.healthcare.CURAHealthCare.CuraHealthCareServiceTest@41d426b5]" started-at="2024-06-13T15:11:13Z" name="tearDown" finished-at="2024-06-13T15:11:13Z" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.healthcare.CURAHealthCare.CuraHealthCareServiceTest@41d426b5]" started-at="2024-06-13T15:11:13Z" name="launchApplication" finished-at="2024-06-13T15:11:19Z" duration-ms="5704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="EndToEndTest(java.util.HashMap)[pri:0, instance:org.healthcare.CURAHealthCare.CuraHealthCareServiceTest@41d426b5]" started-at="2024-06-13T15:11:19Z" name="EndToEndTest" data-provider="getData" finished-at="2024-06-13T15:11:27Z" depends-on-methods="org.healthcare.CURAHealthCare.CuraHealthCareServiceTest.verifyHomepage" duration-ms="8526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{givenDate=10/07/2024, givenComment=Booking appointment for Health checkup, apptStatus=Appointment Confirmation, menuItem3=Profile, menuItem2=History, menuItem5=Login, menuItem4=Logout, profilePage=Under construction., password=ThisIsNotAPassword, pageHeading=Login, month=July 2024, menuItem1=Home, option1=Hongkong CURA Healthcare Center, healthcareProg=Medicaid, username=John Doe, HomePageHeading=CURA Healthcare Service}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndToEndTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.healthcare.CURAHealthCare.CuraHealthCareServiceTest@41d426b5]" started-at="2024-06-13T15:11:27Z" name="tearDown" finished-at="2024-06-13T15:11:27Z" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.healthcare.CURAHealthCare.CuraHealthCareServiceTest -->
+    </test> <!-- StandaloneTest -->
+  </suite> <!-- Suite -->
+</testng-results>

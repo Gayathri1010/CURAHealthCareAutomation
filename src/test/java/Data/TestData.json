@@ -1,0 +1,20 @@
+[
+{
+	"username":"John Doe",
+	"password":"ThisIsNotAPassword",
+	"option1":"Hongkong CURA Healthcare Center",
+	"month":"July 2024",
+	"givenDate":"10/07/2024",
+	"givenComment":"Booking appointment for Health checkup",
+	"healthcareProg":"Medicaid",
+	"pageHeading":"Login",
+	"apptStatus":"Appointment Confirmation",
+	"HomePageHeading":"CURA Healthcare Service",
+	"menuItem1":"Home",
+	"menuItem2":"History",
+	"menuItem3":"Profile",
+	"menuItem4":"Logout",
+	"menuItem5":"Login",
+	"profilePage":"Under construction."
+}
+]

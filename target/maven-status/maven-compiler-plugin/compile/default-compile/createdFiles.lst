@@ -1,0 +1,8 @@
+org\healthcare\CURAHealthCare\HomePage.class
+org\healthcare\CURAHealthCare\AppointmentPage.class
+org\healthcare\CURAHealthCare\Login.class
+org\healthcare\CURAHealthCare\AppointmentConfirmation.class
+org\healthcare\CURAHealthCare\Abstract\AbstractClass.class
+org\healthcare\CURAHealthCare\HistoryPage.class
+org\healthcare\CURAHealthCare\Profile.class
+resources\ExtentReporterNG.class

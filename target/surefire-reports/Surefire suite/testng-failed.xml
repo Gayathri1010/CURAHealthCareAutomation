@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="org.healthcare.CURAHealthCare.CuraHealthCareServiceTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="checkProfile" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.healthcare.CURAHealthCare.CuraHealthCareServiceTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
