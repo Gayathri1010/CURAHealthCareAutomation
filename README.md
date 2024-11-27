@@ -1,13 +1,26 @@
-Java, Selenium, TestNG
+# Selenium Automation Framework
 
-Maven, AssertJ, POM
+This is a Selenium-based automation framework using **Java**, **Selenium**, **TestNG**, and **Maven**. The framework supports thread safety, test data from Excel, property file configurations, and generates detailed reports using Allure.
 
-Thread Local Support → Thread Safety
+## Technologies Used
 
-Allure Report
+- **Java**
+- **Selenium WebDriver**
+- **TestNG**
+- **Maven**
+- **AssertJ**
+- **Page Object Model (POM)**
+- **Thread Local Support** (Thread Safety)
+- **Allure Reporting**
+- **Excel Sheet for Test Data (Data Provider)**
+- **Properties File for Configuration (Username, Password)**
 
-Excel Sheet for Test Data → Data Provider
+## Features
 
-Read the username and password from Properties-
-
-TestNG, @Test, Before and After Method.
+- **TestNG**: Utilizes TestNG for managing tests with annotations like `@Test`, `@BeforeMethod`, and `@AfterMethod`.
+- **Page Object Model (POM)**: Follows the POM design pattern for better maintainability and readability.
+- **Thread Safety**: Implements Thread Local for ensuring that each test case has its own WebDriver instance.
+- **Allure Reporting**: Generates rich test reports using Allure.
+- **Excel Data Provider**: Uses Excel files for feeding test data into tests dynamically.
+- **Properties File**: Reads sensitive data such as username and password from a `.properties` file for better security and flexibility.
+  
